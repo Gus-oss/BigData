@@ -1,6 +1,8 @@
 #------------------------------------------------------------------------------
 #Librerias y configuracion de entorno 
 import os
+import warnings
+warnings.filterwarnings('ignore')
 os.environ["HADOOP_HOME"] = "C:\\hadoop"
 from pyspark import SparkConf, SparkContext
 
@@ -20,7 +22,7 @@ print("ANÁLISIS NYC TAXI CON RDD")
 print("="*50)
 
 # Ruta de datos
-DATA_PATH = "C:/Users/PC/Documents/DocumentosGustavo/Github/Maestria/BigData/nyc-taxi-spark/data/raw/yellow/2024/yellow_tripdata_2024-01.parquet"
+DATA_PATH = "C:/Users/PC/Documents/DocumentosGustavo/Github/Maestria/BigData/nyc-taxi-spark/data/yellow/2024/yellow_tripdata_2024-01.parquet"
 
 # Cargar como RDD
 from pyspark.sql import SparkSession
