@@ -10,7 +10,7 @@ from pyspark import SparkConf, SparkContext
 # Configuración Spark
 conf = SparkConf() \
     .setAppName("NYC-Taxi-RDD") \
-    .setMaster("local[1]") \
+    .setMaster("local[*]") \
     .set("spark.driver.memory", "2g") \
     .set("spark.executor.memory", "2g")
 
