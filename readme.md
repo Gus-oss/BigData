@@ -10,4 +10,4 @@ Este es el repositorio de la materia de Datos Masivos de la Maestria de Ciencia 
 **Tareas**
 - [Tarea1: Elección de base de datos](nyc-taxi-spark/notebooks/Tarea01.Datos.md): Elegir base de datos para el curso. De preferecnia utilizar una base de datos que sea masiva. Instalar Apache Spark para el análisis de datos masivo. 
 - [Tarea2: Operaciones con RDD](nyc-taxi-spark/notebooks/Tarea02.RDD.py): A la base de datos seleccionada y de acuerdo con los apuntes de la clase, realizar opeaciones tipicas de RDD a la base de datos.
-- [Tarea3: Deep learning con big data](nyc-taxi-spark/notebooks/Tarea03.ML.ipynb): Se realizo un proyecto utilizando RDDs y una red neuronal con 4 capas (3 capas ocultas y una de salida), se utilizo una función de activación relu para las capas ocultas y una lineal para la capa de salida. 
+- [Tarea3: Big Data con Deep Learning](nyc-taxi-spark/notebooks/Tarea03.ML.ipynb): Se realizo un proyecto utilizando RDDs y una red neuronal con 4 capas (3 capas ocultas y una de salida), se utilizo una función de activación relu para las capas ocultas y una lineal para la capa de salida. 
