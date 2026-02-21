@@ -8,7 +8,10 @@ _**Autor:**_ Gustavo de Jesús Escobar Mata.
 Este es el repositorio de la materia de Datos Masivos de la Maestria de Ciencia de Datos de la Facultad de Ciencias Fisico Matematicas de la Universidad Autonoma de Nuevo León que imparte el Dr. [Alberto Benavides](https://github.com/albertobenavides) correspondiente al Tercer Tetramestre llevado acabo de Enero-Abril del 2026.
 
 **Tareas**
-- [Tarea1: Elección de base de datos](nyc-taxi-spark/notebooks/Tarea01.Datos.md): Elegir base de datos para el curso. De preferecnia utilizar una base de datos que sea masiva. Instalar Apache Spark para el análisis de datos masivo. 
-- [Tarea2: Operaciones con RDD](nyc-taxi-spark/notebooks/Tarea02.RDD.py): A la base de datos seleccionada y de acuerdo con los apuntes de la clase, realizar opeaciones tipicas de RDD a la base de datos.
-- [Tarea3: Data frames con Pyspark](nyc-taxi-spark/notebooks/Tarea03.DataFrame.ipynb): En este trabajo utilizaremos dataframes con pyspark. Implemente la misma red neuronal de la tarea 4&5 pero ahora utilizando DataFrames. En este caso los tiemos de ejecucion fueron mas rapidos comparados con los RDD. 
-- [Tarea4 y Tarea5: Big Data con Deep Learning](nyc-taxi-spark/notebooks/Tarea04&05.ML.ipynb): Se realizo un proyecto utilizando RDDs y una red neuronal con 4 capas (3 capas ocultas y una de salida), se utilizo una función de activación relu para las capas ocultas y una lineal para la capa de salida. 
+- [Modelos](nyc-taxi-spark/notebooks/modelos): Aqui se van a poner los modelos listos para desplegar en producción.
+   - [NYC-Taxi-Yellow](nyc-taxi-spark/notebooks/modelos/taxi_modelo20260221_102946.keras): Modelo de la Tarea 4 y Tarea 5 sobre taxis amarillos de NYC. 
+- [Tareas](nyc-taxi-spark/notebooks)
+   - [Tarea1: Elección de base de datos](nyc-taxi-spark/notebooks/Tarea01.Datos.md): Elegir base de datos para el curso. De preferecnia utilizar una base de datos que sea masiva. Instalar Apache Spark para el análisis de datos masivo. 
+   - [Tarea2: Operaciones con RDD](nyc-taxi-spark/notebooks/Tarea02.RDD.py): A la base de datos seleccionada y de acuerdo con los apuntes de la clase, realizar opeaciones tipicas de RDD a la base de datos.
+   - [Tarea3: Data frames con Pyspark](nyc-taxi-spark/notebooks/Tarea03.DataFrame.ipynb): En este trabajo utilizaremos dataframes con pyspark. Implemente la misma red neuronal de la tarea 4&5 pero ahora utilizando DataFrames. En este caso los tiemos de ejecucion fueron mas rapidos comparados con los RDD. 
+   - [Tarea4 y Tarea5: Big Data con Deep Learning](nyc-taxi-spark/notebooks/Tarea04&05.ML.ipynb): Se realizo un proyecto utilizando RDDs y una red neuronal con 4 capas (3 capas ocultas y una de salida), se utilizo una función de activación relu para las capas ocultas y una lineal para la capa de salida. 
