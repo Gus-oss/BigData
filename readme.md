@@ -7,7 +7,8 @@ _**Autor:**_ Gustavo de Jesús Escobar Mata.
 
 Este es el repositorio de la materia de Datos Masivos de la Maestria de Ciencia de Datos de la Facultad de Ciencias Fisico Matematicas de la Universidad Autonoma de Nuevo León que imparte el Dr. [Alberto Benavides](https://github.com/albertobenavides) correspondiente al Tercer Tetramestre llevado acabo de Enero-Abril del 2026.
 
-**Tareas**
+**Contenido**
+- [Aplicación: NYC-Taxi-Yellow ](https://huggingface.co/spaces/Gus-oss/NYC-Taxi-Yellow): La aplicación realizada con Hugging Face y se enfoca en predecir el precio de la tarifa del taxi dado un numero determiando de pasajeros, la distancia y la hora en la que se toma el vehiculo.
 - [Modelos](nyc-taxi-spark/notebooks/modelos): Aqui se van a poner los modelos listos para desplegar en producción.
    - [NYC-Taxi-Yellow](nyc-taxi-spark/notebooks/modelos/taxi_modelo20260221_102946.keras): Modelo de la Tarea 4 y Tarea 5 sobre taxis amarillos de NYC. 
 - [Tareas](nyc-taxi-spark/notebooks)
